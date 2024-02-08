@@ -1,0 +1,1 @@
+ssh -i  key.pem -f -N -L 6379:test-cache-ro.effsw6.ng.0234.use1.cache.amazonaws.com:6379 ec2-user@<instance_ip_address>
