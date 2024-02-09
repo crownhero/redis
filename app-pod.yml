@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: logging-test-app
+  labels:
+    app: logging-test
+spec:
+  containers:
+    - name: logging-test
+      image: image_url:latest
+      ports:
+        - name: logging-test-port
+          containerPort: 80
